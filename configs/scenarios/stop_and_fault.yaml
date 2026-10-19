@@ -1,0 +1,11 @@
+schema_version: 1
+status: draft_not_executable
+name: stop_and_fault
+independent_cases:
+  - command_source_timeout
+  - lowstate_timeout
+  - lowcmd_publisher_stopped
+  - controller_process_killed
+  - nonfinite_policy_output
+expected_rearm: explicit
+# Define injection times, fallback states and timing budgets before execution.

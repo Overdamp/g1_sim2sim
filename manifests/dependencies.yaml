@@ -1,0 +1,24 @@
+schema_version: 1
+status: revisions_recorded_runtime_unverified
+paths_relative_to: project_root
+repositories:
+  training:
+    path: ../unitree_rl_mjlab
+    commit: "1425b15f73bd4095f0df53709d7c389c3eb9e790"
+  simulator_standalone:
+    path: ../unitree_mujoco
+    commit: "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d"
+  sdk_cpp:
+    path: ../unitree_sdk2
+    commit: "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36"
+  sdk_python:
+    path: ../unitree_sdk2_python
+    commit: "814556d15970dd2ecf1c9984e845ca02ab07e206"
+declared_training_dependencies:
+  mjlab: "1.2.0"
+  mujoco-warp: "3.5.0"
+python_target: "3.11"
+runtime_versions_verified: false
+notes:
+  - Integrated simulator and baseline controller are inside the training repository.
+  - Record dirty-tree changes and resolved runtime versions before experiments.

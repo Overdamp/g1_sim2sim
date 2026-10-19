@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "g1-sim2sim"
+version = "0.1.0"
+description = "G1 training and Unitree DDS sim-to-sim project scaffold"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+# Runtime dependencies are not resolved yet. See docs/setup.md and
+# manifests/dependencies.yaml; install the upstream baseline separately.
+[tool.setuptools.packages.find]
+where = ["src"]

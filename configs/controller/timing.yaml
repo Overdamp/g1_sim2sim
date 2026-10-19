@@ -1,0 +1,7 @@
+schema_version: 1
+status: draft_unvalidated
+policy_period_s: 0.02 # Reference from upstream G1 velocity deploy profile.
+command_publish_period_s: null # Measure and select explicitly.
+state_timeout_s: null
+command_timeout_s: null
+clock: monotonic

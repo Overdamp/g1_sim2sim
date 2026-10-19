@@ -1,0 +1,7 @@
+schema_version: 1
+status: draft_not_executable
+name: stand
+support_force_enabled: false
+steps:
+  - duration_s: 30
+    velocity_body: [0.0, 0.0, 0.0] # vx m/s, vy m/s, wz rad/s

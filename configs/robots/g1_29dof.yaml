@@ -1,0 +1,12 @@
+schema_version: 1
+status: draft_unvalidated
+robot: g1
+assumed_dof: 29
+hardware_variant_confirmed: false
+joint_map: [] # Populate from named training/simulator joints and SDK motor IDs.
+reference_pose: null
+action_scale: null
+kp: null
+kd: null
+limits: null
+# A future loader must reject an incomplete profile; do not infer defaults.

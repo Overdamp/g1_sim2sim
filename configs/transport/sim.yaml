@@ -1,0 +1,9 @@
+schema_version: 1
+status: baseline_reference_not_wired
+backend: unitree_sdk2
+interface: lo
+domain_id: 0 # Current integrated simulator + controller baseline.
+message_namespace: unitree_hg
+lowcmd_topic: rt/lowcmd
+lowstate_topic: rt/lowstate
+# Domain 1 requires configurable controller domain and matching simulator config.

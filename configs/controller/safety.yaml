@@ -1,0 +1,8 @@
+schema_version: 1
+status: draft_unvalidated
+require_validated_robot_contract: true
+require_finite_state_and_action: true
+fault_latched: true
+automatic_rearm: false
+fallback_mode: null # Define and test; damping is not guaranteed balance.
+joint_limits_source: robots/g1_29dof.yaml # Relative to configs/.
