@@ -1,5 +1,7 @@
 # Sim-to-Sim
 
+เริ่มรันแบบไม่ใช้ policy ได้จาก [คู่มือคำสั่งเปิด G1 เปล่าและตรวจ DDS](run_empty_simulation.md)
+
 สถานะ: ยังไม่ได้ run DDS baseline หรือ custom controller
 
 1. ตรวจ robot model และ sensor/joint mapping

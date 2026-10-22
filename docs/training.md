@@ -1,5 +1,7 @@
 # Training
 
+อ่าน [ตารางองค์ประกอบ environment ทั้ง 8 ส่วน](environment_components.md) เพื่อเข้าใจ config ของ G1 โดยเริ่มจาก Scene
+
 สถานะ: `tasks/stand.py`, `walk.py`, `rl_cfg.py` เป็น module placeholders ยังไม่ register task
 
 - ใช้ฐาน Unitree task `Unitree-G1-Flat` ใน environment ของ unitree_rl_mjlab

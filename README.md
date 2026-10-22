@@ -6,6 +6,12 @@
 
 ## เริ่มอ่าน
 
+คำสั่งสำหรับเปิดหุ่นเปล่า, อ่าน LowState และทดสอบส่งคำสั่งเล็กน้อยผ่าน ROS 2 ใน simulator: [เปิด G1 simulation + อ่าน/ส่ง Unitree DDS](docs/run_empty_simulation.md)
+
+สำหรับศึกษา environment ทีละส่วน เริ่มที่ [ตาราง Scene → Commands → Actions → Observations → Rewards → Terminations → Events → Curriculum](docs/environment_components.md)
+
+อ่านคู่กับ [ตารางฝั่งหุ่นจริง Unitree G1](docs/real_robot_components_unitree.md) สำหรับ SDK messages, motor mapping, observations และขั้นตอนทดสอบ hardware
+
 1. [แผน implement](docs/implementation_plan.md)
 2. [สถาปัตยกรรม](docs/architecture.md)
 3. [การติดตั้งและตรวจ baseline](docs/setup.md)
